@@ -4,7 +4,7 @@ $seed = time();
 //获取随机数
 $num = mt_rand(1,22);
 //拼接图片地址
-$picpath = "https://cdn.jsdelivr.net/gh/fantaiying7/sqmrts@main/wallpapers/".$num.".jpg";
+$picpath = "http://jie20091116.github.io/fty/wallpapers/".$num.".jpg";
 //重定位到图片
 die(header("Location: $picpath"));
 ?>
