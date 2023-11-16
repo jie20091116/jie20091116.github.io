@@ -1,11 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>加密接口解析提取</title>
+    <title>超级商店-TVBox配置接口解密</title>
+     
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <meta name="keywords" content="超级商店-发布页,永久有效地址！" />
+     <meta name="description" content="超级商店-发布页，关注，TVBox，配置，接口，动态，解密，必应，收藏，绿清，回家，不迷路！" />
+     <link rel="shortcut icon" type="image/x-icon" href="/images/icon.ico">
     <!-- 引入Bootstrap样式库 -->
-    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         body {
             margin-top: 40px;
@@ -31,9 +37,9 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center mb-5">全能接口解密</h1>
+        <h1 class="text-center mb-5">TVBox配置接口解密</h1>
         <div class="input-group mb-3">
-            <input type="text" class="form-control" id="url" value="" placeholder="输入接口地址，没地址？饭太硬主页有">
+            <input type="text" class="form-control" id="url" value="" placeholder="输入接口地址，没地址？关注公众号猫技回复接口">
             <button class="btn btn-secondary" type="button" onclick="crawl()">解密</button>
         </div>
        
@@ -45,62 +51,20 @@
        
         <textarea class="form-control" id="result" cols="80" rows="20" readonly></textarea>
         <div class="text-center mt-3">
-             <a href="http://饭太硬.top"  target="_blank"class="btn btn-primary">主页</a>
+             <a href="https://m.n13.club/"  target="_blank"class="btn btn-primary">主页</a>
              <button class="btn btn-warning" onclick="copyText()">复制</button>
-             <!--<button class="btn btn-success" onclick="downloadJar()">下载Jar</button>-->
-            <a href="https://mp.weixin.qq.com/s/NBOLbHgxDAQJYqaFOmGWyQ"  target="_blank"class="btn btn-danger">饭太硬公众号</a>
+             <button class="btn btn-success" onclick="window.location.href = 'https://bjq.n13.club/'">编辑器</button>
+            <a href="https://mp.weixin.qq.com/s/63NhS-LbZn02Xj-hJFTdCg"  target="_blank"class="btn btn-danger">更多资源关注猫技公众号</a>
             
         </div>
     </div>
     <!-- 引入Bootstrap JS库 -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0/js/bootstrap.min.js"></script>
-    <script>
-        function crawl() {
-            var xhr = new XMLHttpRequest();
-            var url = document.getElementById('url').value;
-            var resultBox = document.getElementById('result');
-            xhr.open("GET", "https://api.shangui.cc/api/tvbox/jm?key=CBkzLrn7yFaSTo8vBmhLhfFe4u&url=" + encodeURIComponent(url), true);
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    resultBox.value = xhr.responseText;
-                    document.getElementById('loading').style.display = 'none';
-                }
-            };
-            resultBox.value = '';
-            document.getElementById('loading').style.display = 'block';
-            xhr.send();
-        }
-        function downloadJar() {
-            var resultBox = document.getElementById('result');
-            var url = resultBox.value.match(/"spider":"(.*?)"/)[1];
-            if (url.includes(';md5;')) {
-                url = url.split(';md5;')[0];
-            }
-            fetch(url, {headers: {'User-Agent': 'okhttp'}})
-            .then(function(response) {
-                return response.blob();
-            })
-            .then(function(blob) {
-                var downloadUrl = URL.createObjectURL(blob);
-                var a = document.createElement('a');
-                a.href = downloadUrl;
-                a.download = 'file.jar';
-                a.click();
-                URL.revokeObjectURL(downloadUrl);
-                document.getElementById('loading').style.display = 'none';
-            });
-            document.getElementById('loading').style.display = 'block';
-        }
-    
-        function copyText() {
-          var copyText = document.getElementById("result");
-          copyText.select();
-          copyText.setSelectionRange(0, 99999);
-          document.execCommand("copy");
-          alert("偷取成功！");
-        }
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.mins.js"></script>
 
 
-    </script>
+   
 </body>
+<!--雪花API-->
+<script src='https://api.vvhan.com/api/snow'></script>
 </html>
