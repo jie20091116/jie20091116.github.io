@@ -38,7 +38,7 @@
       "playerType": 1,
       "epg": "https://www.realfansleaked.shop/index.php?https://epg.112114.xyz/?ch={name}&date={date}"},
       
-      
+
        {
            "name": "🌺肥猫软件2🌺",
       "type": 0,
@@ -46,7 +46,13 @@
       "ua": "cytx/5.19",
       "playerType": 1,
       "epg": "https://www.realfansleaked.shop/index.php?https://epg.112114.xyz/?ch={name}&date={date}"},
-      
+    {
+           "name": "🌺肥猫软件3🌺",
+      "type": 0,
+      "url": "https://jie20091116.github.io/OKZB/18.txt",
+      "ua": "cytx/5.19",
+      "playerType": 1,
+      "epg": "https://www.realfansleaked.shop/index.php?https://epg.112114.xyz/?ch={name}&date={date}"},  
     {
       "name": "SAO0",
       "type": 0,
