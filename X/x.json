@@ -555,10 +555,11 @@
 	\"播放数组\": \"vm_video_ratio_mobile\\\":\\\"16:9\\\",&&,\\\"single_media_vod_metadata\",\"播放列表\": \"{&&}\",\"播放标题\": \"source_label\\\":\\\"&&\\\"\",\"播放链接\": \"source_file\\\":\\\"&&\\\"\",
 \"图片\": \"data-src=\\\"&&\\\"\",
 \"标题\": \"alt=&&</img>\",
-	\"分类url\":\"https://cableav.tv/category/{cateId}/page/{catePg}/\"}","jar":"https://gitjs.wokaotianshi123.cloudns.org/https://raw.githubusercontent.com/wokaotianshi123/wokaotianshi123.github.io/main/pglblb/xBPQ.jar"}
+	\"分类url\":\"https://cableav.tv/category/{cateId}/page/{catePg}/\"}","jar":"https://gitjs.wokaotianshi123.cloudns.org/https://raw.githubusercontent.com/wokaotianshi123/wokaotianshi123.github.io/main/pglblb/xBPQ.jar"},
 		
 
-
+
+
 {"key":"lf_js_search","name":"搜索","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jie20091116/ysc/master/xzqzy/lib1/lf_search3_min.js","ext":"18+"},
 {"key":"lf_js_p2p","name":"磁力","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jie20091116/ysc/master/xzqzy/lib1/lf_p2p2_min.js","ext":"18+","timeout":60},
 {"key":"SeHuaTang","name":"色花堂|网盘","jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jie20091116/ysc/master/xzqzy/lib/pg.jar","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"timeout":60,"ext":"null$$$proxy","style":{"type":"rect","ratio":1.5}},
