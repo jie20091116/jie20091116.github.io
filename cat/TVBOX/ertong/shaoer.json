@@ -1,6 +1,68 @@
 {
 	"spider":"./pg.jar",
 	"sites":[
+		{
+			"key": "豆瓣",
+			"name": "豆瓣首页┃【儿童版】",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs":1,
+			"ext": "./douban.json"
+		},
+		{
+      "key": "Bili",
+      "name": "杰哥🐴B站",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+      "type": "rect",
+      "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./bilibili.json",
+       "jar": "./svip.jar"
+    },
+       {
+      "key": "csp_Bili",
+      "name":"杰哥🐎B娱",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":"./bili.js",
+      "jar": "./sglt.jar"
+    },
+
+    {
+      "key":"哔哩音乐",
+      "name":"杰哥☪哔哩",
+      "type":3,
+      "api":"csp_Bili",
+      "searchable":0,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"./哔哩音乐.json",
+      "jar": "./sglt.jar"
+    },
+ 
+		{
+			"key":"bili",
+			"name":"杰哥☪B站",
+			"type":3,
+			"api": "csp_Bili",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext":{
+				"type":"演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#舞蹈#影视#知识#美食#风光#田园#户外#8K#徐云",
+				"cookie":""
+			}
+		},
     {
             "key": "hipy_js_采集之王[合]",
             "name": "杰哥☪采集",
@@ -12,16 +74,6 @@
             "order_num": 210,
             "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/采集之王.js?type=url&params=https://jie20091116.github.io/cat/TVBOX/ertong/采集静态.json"
         },
-		{
-			"key": "豆瓣",
-			"name": "豆瓣首页┃【儿童版】",
-			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"indexs":1,
-			"ext": "./douban.json"
-		},
 				{
 			"key": "FirstAid",
 			"name": "杰哥☪急救 ",
@@ -44,7 +96,13 @@
 			"ext": "https://d.kstore.space/download/2883/sdtv.txt",
 			"jar": "https://d.kstore.space/download/2883/sdtv.jar"}, 
 
-
+{
+      "key": "drpy_js_腾云驾雾",
+      "name": "拾光☪腾讯源",
+      "type": 3,
+      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
+      "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/腾云驾雾.js"
+    },
 
 {
       "key": "drpy_js_百忙无果",
@@ -59,13 +117,6 @@
       "type": 3,
       "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
       "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/lib/奇珍异兽.js"
-    },
-        {
-      "key": "drpy_js_腾云驾雾",
-      "name": "拾光☪腾讯源",
-      "type": 3,
-      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
-      "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/腾云驾雾.js"
     },
         {
       "key": "drpy_js_菜狗",
@@ -144,7 +195,21 @@
 				"cookie":""
 			}
 		},
-
+ {
+      "key": "dr_兔小贝",
+      "name": "杰哥☪启蒙",
+      "type": 3,
+      "jar": "./svip.jar",
+      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
+      "ext": "./兔小贝.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
 		{
 			"key": "JustLive",
 			"name": "JustLive",
@@ -556,21 +621,6 @@
       "style": {
         "type": "rect",
         "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "dr_兔小贝",
-      "name": "杰哥☪启蒙",
-      "type": 3,
-      "jar": "./svip.jar",
-      "api": "./drpy2.min.js",
-      "ext": "./兔小贝.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
       },
       "searchable": 0,
       "quickSearch": 0,
