@@ -5,12 +5,12 @@
             "key": "hipy_js_采集之王[合]",
             "name": "杰哥☪采集",
             "type": 3,
-            "api": "https://gitlab.com/xmbjm/omg/-/raw/main/drpy_libs/drpy2.min.js",
+            "api": "https://jie20091116.github.io/cat/TVBOX/ertong/drpy_libs/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 210,
-            "ext": "https://gitlab.com/xmbjm/omg/-/raw/main/js/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B.js?type=url&params=https://gitlab.com/xmbjm/omg/-/raw/main/json/%E9%87%87%E9%9B%86%E9%9D%99%E6%80%81.json"
+            "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/采集之王.js?type=url&params=https://jie20091116.github.io/cat/TVBOX/ertong/采集静态.json"
         },
 		{
 			"key": "豆瓣",
@@ -57,29 +57,29 @@
       "key": "drpy_js_奇珍异兽",
       "name": "拾光☪奇异源",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/奇珍异兽.js"
+      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/lib/奇珍异兽.js"
     },
         {
       "key": "drpy_js_腾云驾雾",
       "name": "拾光☪腾讯源",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾云驾雾.js"
+      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/腾云驾雾.js"
     },
         {
       "key": "drpy_js_菜狗",
       "name": "拾光☪搜狗源",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/菜狗.js"
+      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/菜狗.js"
     },
         {
       "key": "drpy_js_优酷",
       "name": "拾光☪游酷源",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷.js"
+      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/优酷.js"
     },
 {
       "key": "csp_SP33",
@@ -960,7 +960,13 @@
             "type": 0,
             "url": "https://www.pangujiexi.com/pangu/?url="
         },
-                {
+               
+{"name":"秀探","type":0,"url":"https://jx.xmflv.com/?url="},
+{"name":"7777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+{"name":"-嗅探-","type":0,"url":"https://jx.xyflv.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://www.xyflv.cc/"}}},
+{"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
+{"name":"夜幕","type":0,"url":"https://www.yemu.xyz/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+ {
             "name": "免费分享",
             "type": 0,
             "url": "https://jx.xmflv.com/?url=",
@@ -990,12 +996,6 @@
                 }
             }
         },
-{"name":"秀探","type":0,"url":"https://jx.xmflv.com/?url="},
-{"name":"7777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-{"name":"-嗅探-","type":0,"url":"https://jx.xyflv.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://www.xyflv.cc/"}}},
-{"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
-{"name":"夜幕","type":0,"url":"https://www.yemu.xyz/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
-
             {
       "name": "YuMi-vip🥭",
       "type": 0,
