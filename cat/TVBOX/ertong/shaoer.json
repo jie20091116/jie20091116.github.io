@@ -50,35 +50,35 @@
       "key": "drpy_js_百忙无果",
       "name": "拾光☪芒果源",
       "type": 3,
-      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
       "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/百忙无果.js"
     },
         {
       "key": "drpy_js_奇珍异兽",
       "name": "拾光☪奇异源",
       "type": 3,
-      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
       "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/lib/奇珍异兽.js"
     },
         {
       "key": "drpy_js_腾云驾雾",
       "name": "拾光☪腾讯源",
       "type": 3,
-      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
       "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/腾云驾雾.js"
     },
         {
       "key": "drpy_js_菜狗",
       "name": "拾光☪搜狗源",
       "type": 3,
-      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
       "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/菜狗.js"
     },
         {
       "key": "drpy_js_优酷",
       "name": "拾光☪游酷源",
       "type": 3,
-      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "api": "https://gitlab.com/xmbjm/omg/-/raw/main/lib/drpy2.min.js",
       "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/优酷.js"
     },
 {
