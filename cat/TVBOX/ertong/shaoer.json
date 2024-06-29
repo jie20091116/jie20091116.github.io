@@ -5,12 +5,12 @@
             "key": "hipy_js_采集之王[合]",
             "name": "杰哥☪采集",
             "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
+            "api": "https://gitlab.com/xmbjm/omg/-/raw/main/drpy_libs/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 210,
-            "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B.js?type=url&params=https://jie20091116.github.io/cat/TVBOX/ertong/采集静态.json"
+            "ext": "https://gitlab.com/xmbjm/omg/-/raw/main/js/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B.js?type=url&params=https://gitlab.com/xmbjm/omg/-/raw/main/json/%E9%87%87%E9%9B%86%E9%9D%99%E6%80%81.json"
         },
 		{
 			"key": "豆瓣",
@@ -50,8 +50,8 @@
       "key": "drpy_js_百忙无果",
       "name": "拾光☪芒果源",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/百忙无果.js"
+      "api": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/drpy2.min.js",
+      "ext": "https://jie20091116.github.io/cat/TVBOX/ertong/lib/百忙无果.js"
     },
         {
       "key": "drpy_js_奇珍异兽",
